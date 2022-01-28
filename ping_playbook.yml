@@ -1,4 +1,4 @@
 - hosts:
-    - all
+    - gkubernetes
   tasks:
     - action: ping
