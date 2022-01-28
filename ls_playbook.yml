@@ -1,5 +1,7 @@
 - hosts:
     - gkubernetes
   tasks:
-    - command: hostname
+    - shell: hostname
       register: myoutput
+      become: true
+    - debug: var=myoutput    
