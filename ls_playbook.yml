@@ -1,4 +1,4 @@
 - hosts:
     - gkubernetes
   tasks:
-    - action: hostname
+    - command: hostname
