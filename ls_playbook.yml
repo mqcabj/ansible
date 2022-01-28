@@ -1,4 +1,5 @@
 - hosts:
     - gkubernetes
   tasks:
-    - shell: hostname
+    - command: hostname
+      register: myoutput
