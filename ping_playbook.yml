@@ -1,4 +1,4 @@
 - hosts:
-    - gkubernetes
+    - Huawey switchs group
   tasks:
     - action: ping
