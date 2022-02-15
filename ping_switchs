@@ -1,0 +1,4 @@
+- hosts:
+    - Huawey switchs group
+  tasks:
+    - action: ping
