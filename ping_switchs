@@ -1,4 +1,4 @@
 - hosts:
     - Huawey switchs group
   tasks:
-    - action: ping
+    - action: pings
